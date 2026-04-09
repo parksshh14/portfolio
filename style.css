@@ -81,23 +81,28 @@ ul {
   flex-direction: row;
 }
 .left {
-  width: 500px;
+  width: 720px;
   height: 1080px;
-  /* background-color: beige; */
+  background-color: beige;
   display: flex;
 }
-.left-content {
-  width: 1000px;
-  height: 800px;
-  margin: 100px;
-  /* background-color: aqua; */
-}
 .profile {
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 1080px;
 }
 #myimg > img {
   width: 400px;
   height: 400px;
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
+  margin: 150px 0 0 320px;
+}
+.right {
+  width: 1200px;
+  height: 1080px;
+}
+.exp {
+  width: 1200px;
+  height: 380px;
+  margin: 180px 0 0 50px;
+  background-color: yellow;
 }
