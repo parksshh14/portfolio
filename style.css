@@ -5,18 +5,19 @@
 }
 body {
   color: black;
-  background-color: #e2e8f0;
+  /* background-color: #e2e8f0; */
+  background-color: whitesmoke;
   /* background-color: lightsteelblue; */
   width: 1920px;
   height: 1080px;
   padding-top: 70px;
 }
 .navbar {
-  color: gray;
+  /* color: gray; */
   /* background-color: #F8CFA5; */
   /* background-color: #FAD7B0; */
   /* background-color: #e2e8f0; */
-  background-color: lightsteelblue;
+  background-color: lightgray;
 
   height: 70px;
   position: fixed;
@@ -81,28 +82,36 @@ ul {
   flex-direction: row;
 }
 .left {
-  width: 720px;
-  height: 1080px;
+  width: 520px;
+  height: 520px;
   background-color: beige;
   display: flex;
 }
-.profile {
+/* .profile {
   width: 400px;
-  height: 1080px;
-}
+  height: 400px;
+} */
 #myimg > img {
   width: 400px;
   height: 400px;
   /* background-color: whitesmoke; */
-  margin: 150px 0 0 320px;
+  margin: 20px 50px;
 }
-.right {
-  width: 1200px;
-  height: 1080px;
+.title {
+  width: 1520px;
+  height: 400px;
 }
 .exp {
-  width: 1200px;
-  height: 380px;
-  margin: 180px 0 0 50px;
+  /* width: 1400px;
+  height: 520px; */
+  padding: 0 0 0 0px;
   background-color: yellow;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+.bottom {
+  width: 1920px;
+  height: 500px;
+  background-color: limegreen;
 }
