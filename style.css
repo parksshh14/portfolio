@@ -10,7 +10,7 @@ body {
   /* background-color: lightsteelblue; */
   width: 1920px;
   height: 1080px;
-  padding-top: 70px;
+  padding-top: 80px;
 }
 .navbar {
   /* color: gray; */
@@ -19,7 +19,7 @@ body {
   /* background-color: #e2e8f0; */
   background-color: lightgray;
 
-  height: 70px;
+  height: 80px;
   position: fixed;
   top: 0;
   left: 0;
@@ -69,49 +69,74 @@ ul {
   color: black;
   /* background-color: lawngreen; */
 }
-.title > h1 {
-  color: black;
-  font-size: xx-large;
-}
 .logo > a {
   color: black;
   text-decoration: none;
 }
-.content {
-  display: flex;
-  flex-direction: row;
+.top {
+  width: 1920px;
+  height: 100px;
+  /* background-color: aqua; */
 }
 .left {
   width: 520px;
-  height: 520px;
-  background-color: beige;
+  height: 600px;
+  /* background-color: bisque; */
+}
+.right {
+  width: 1400px;
+  height: 600px;
+  /* background-color: cadetblue; */
+}
+.row {
   display: flex;
-}
-/* .profile {
-  width: 400px;
-  height: 400px;
-} */
-#myimg > img {
-  width: 400px;
-  height: 400px;
-  /* background-color: whitesmoke; */
-  margin: 20px 50px;
-}
-.title {
-  width: 1520px;
-  height: 400px;
+  flex-direction: row;
 }
 .exp {
-  /* width: 1400px;
-  height: 520px; */
-  padding: 0 0 0 0px;
-  background-color: yellow;
-  display: flex;
-  /* justify-content: space-between; */
-  align-items: center;
+  margin: 150px 20px;
+  /* background-color: royalblue; */
 }
-.bottom {
-  width: 1920px;
-  height: 500px;
-  background-color: limegreen;
+.c-h2 {
+  line-height: 1.5;
+}
+.c-title {
+  margin: 10px;
+}
+.c-title > h1 {
+  font-size: 100px;
+}
+.c-exp {
+  margin: 100px 80px;
+  /* background-color: royalblue; */
+}
+
+.first {
+  width: 1000px;
+  height: 400px;
+  background-color: lightsteelblue;
+}
+.first-title > h2 {
+  font-size: 50px;
+  width: 400px;
+  margin: 0 40px;
+  padding: 40px 0;
+  background-color: blanchedalmond;
+}
+.first-exp {
+  width: 400px;
+  height: 200px;
+  /* background-color: lightsteelblue; */
+  margin: 0px 40px;
+  background-color: aquamarine;
+}
+.first-exp > p {
+  line-height: 1.5;
+}
+.first-img > img {
+  width: 500px;
+  background-color: blue;
+}
+.first {
+  display: flex;
+  flex-direction: row;
 }
