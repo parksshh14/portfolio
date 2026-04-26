@@ -469,15 +469,6 @@ ul {
   position: relative;
   overflow: hidden;
 }
-.skill-icon--html {
-  background: #fff4f0;
-}
-.skill-icon--css {
-  background: #f0f4ff;
-}
-.skill-icon--python {
-  background: #f0fff4;
-}
 .skill-icon img {
   width: 100%;
   height: 100%;
