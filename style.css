@@ -498,6 +498,10 @@ ul {
   color: #475569;
   line-height: 1.75;
 }
+
+.first-exp a {
+  color: whitesmoke;
+}
 @media (max-width: 900px) {
   .row {
     flex-direction: column;
